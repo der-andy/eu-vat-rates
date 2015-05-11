@@ -359,13 +359,16 @@ void Main()
 	// -----
 
 	// save JSON file to desktop
-	
-	string json = JsonConvert.SerializeObject(rates, Newtonsoft.Json.Formatting.Indented, new JsonSerializerSettings {
+	var settings = new JsonSerializerSettings {
 		Converters = { new Newtonsoft.Json.Converters.IsoDateTimeConverter { DateTimeFormat = "yyyy-MM-dd" } },
 		NullValueHandling = NullValueHandling.Ignore
-	});
+	};
 	
+	string json = JsonConvert.SerializeObject(rates, Newtonsoft.Json.Formatting.Indented, settings);
 	File.WriteAllText(Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop), "eu-vat-rates.json"), json);
+	
+	json = JsonConvert.SerializeObject(rates, Newtonsoft.Json.Formatting.None, settings);
+	File.WriteAllText(Path.Combine(Environment.GetFolderPath(System.Environment.SpecialFolder.Desktop), "eu-vat-rates-min.json"), json);
 }
 
 class VatRate
