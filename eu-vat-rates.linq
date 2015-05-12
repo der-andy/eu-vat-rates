@@ -319,11 +319,11 @@ void Main()
 	// Finland
 	rates.Add("fi", new List<VatRate>());
 	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 22, Reduced1 = 12, Reduced2 = 5 });
-	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 22, Reduced1 = 17, Reduced2 = 12, Reduced3 = 6 });
-	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 22, Reduced1 = 17, Reduced2 = 8 });
-	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 22, Reduced1 = 12, Reduced2 = 8 });
-	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 23, Reduced1 = 13, Reduced2 = 9 });
-	rates["fi"].Add(new VatRate { StartDate = new DateTime(1994,  6,  1), Standard = 24, Reduced1 = 14, Reduced2 = 10 });
+	rates["fi"].Add(new VatRate { StartDate = new DateTime(1995,  1,  1), Standard = 22, Reduced1 = 17, Reduced2 = 12, Reduced3 = 6 });
+	rates["fi"].Add(new VatRate { StartDate = new DateTime(1998,  1,  1), Standard = 22, Reduced1 = 17, Reduced2 = 8 });
+	rates["fi"].Add(new VatRate { StartDate = new DateTime(2009, 10,  1), Standard = 22, Reduced1 = 12, Reduced2 = 8 });
+	rates["fi"].Add(new VatRate { StartDate = new DateTime(2010,  7,  1), Standard = 23, Reduced1 = 13, Reduced2 = 9 });
+	rates["fi"].Add(new VatRate { StartDate = new DateTime(2013,  1,  1), Standard = 24, Reduced1 = 14, Reduced2 = 10 });
 	
 	// Sweden
 	rates.Add("se", new List<VatRate>());
