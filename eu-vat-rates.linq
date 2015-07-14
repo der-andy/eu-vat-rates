@@ -274,6 +274,7 @@ void Main()
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(1993,  1,  8), Standard = 22, Reduced1 = 7 });
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(2000,  9,  4), Standard = 22, Reduced1 = 7, Reduced2 = 3 });
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(2011,  1,  1), Standard = 23, Reduced1 = 8, Reduced2 = 5 });
+	rates["pl"].Add(new VatRate { StartDate = new DateTime(2016,  1,  1), Standard = 22, Reduced1 = 8, Reduced2 = 5 });
 	
 	// Portugal
 	rates.Add("pt", new List<VatRate>());
