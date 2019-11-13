@@ -9,4 +9,4 @@ Remarks:
  * Increased and parking rates are always ordered from lowest to highest.
  * France: To avoid miscalculations, the rates from 1968-01-01 to 1969-12-31 are omitted because they were applied to the gross price instead of the net price.
 
-Last update: 2015-07-14
+Last update: 2019-11-13

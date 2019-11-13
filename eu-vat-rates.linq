@@ -82,6 +82,8 @@ void Main()
 	rates["el"].Add(new VatRate { StartDate = new DateTime(2010,  3, 15), Standard = 21, Reduced1 = 10, Reduced2 = 5 });
 	rates["el"].Add(new VatRate { StartDate = new DateTime(2010,  7,  1), Standard = 23, Reduced1 = 11, Reduced2 = 5.5 });
 	rates["el"].Add(new VatRate { StartDate = new DateTime(2011,  1,  1), Standard = 23, Reduced1 = 13, Reduced2 = 6.5 });
+	rates["el"].Add(new VatRate { StartDate = new DateTime(2015,  7, 20), Standard = 23, Reduced1 = 13, Reduced2 = 6 });
+	rates["el"].Add(new VatRate { StartDate = new DateTime(2016,  6,  1), Standard = 24, Reduced1 = 13, Reduced2 = 6.5 });
 	
 	rates.Add("gr", rates["el"]);
 	
@@ -161,7 +163,7 @@ void Main()
 	rates["ie"].Add(new VatRate { StartDate = new DateTime(2008, 12,  1), Standard = 21.5, Reduced1 = 13.5, Reduced2 = 4.8, Parking1 = 13.5 });
 	rates["ie"].Add(new VatRate { StartDate = new DateTime(2010,  3,  1), Standard = 21, Reduced1 = 13.5, Reduced2 = 4.8, Parking1 = 13.5 });
 	rates["ie"].Add(new VatRate { StartDate = new DateTime(2011,  7,  1), Standard = 21, Reduced1 = 13.5, Reduced2 = 9, Reduced3 = 4.8, Parking1 = 13.5 });
-	rates["ie"].Add(new VatRate { StartDate = new DateTime(2012,  3,  1), Standard = 23, Reduced1 = 13.5, Reduced2 = 9, Reduced3 = 4.8, Parking1 = 13.5 });
+	rates["ie"].Add(new VatRate { StartDate = new DateTime(2012,  1,  1), Standard = 23, Reduced1 = 13.5, Reduced2 = 9, Reduced3 = 4.8, Parking1 = 13.5 });
 	
 	// Italy
 	rates.Add("it", new List<VatRate>());
@@ -186,6 +188,7 @@ void Main()
 	rates["it"].Add(new VatRate { StartDate = new DateTime(1997, 10,  1), Standard = 20, Reduced1 = 10, Reduced2 = 4 });
 	rates["it"].Add(new VatRate { StartDate = new DateTime(2011,  9, 17), Standard = 21, Reduced1 = 10, Reduced2 = 4 });
 	rates["it"].Add(new VatRate { StartDate = new DateTime(2013, 10,  1), Standard = 22, Reduced1 = 10, Reduced2 = 4 });
+	rates["it"].Add(new VatRate { StartDate = new DateTime(2016,  1,  1), Standard = 22, Reduced1 = 10, Reduced2 = 5, Reduced3 = 4 });
 	
 	// Cyprus
 	rates.Add("cy", new List<VatRate>());
@@ -258,7 +261,8 @@ void Main()
 	rates["nl"].Add(new VatRate { StartDate = new DateTime(1992,  1,  1), Standard = 17.5, Reduced1 = 6 });
 	rates["nl"].Add(new VatRate { StartDate = new DateTime(2001,  1,  1), Standard = 19, Reduced1 = 6 });
 	rates["nl"].Add(new VatRate { StartDate = new DateTime(2012,  1,  1), Standard = 21, Reduced1 = 6 });
-	
+	rates["nl"].Add(new VatRate { StartDate = new DateTime(2019,  1,  1), Standard = 21, Reduced1 = 9 });
+
 	// Austria
 	rates.Add("at", new List<VatRate>());
 	rates["at"].Add(new VatRate { StartDate = new DateTime(1973,  1,  1), Standard = 16, Reduced1 = 8 });
@@ -268,13 +272,13 @@ void Main()
 	rates["at"].Add(new VatRate { StartDate = new DateTime(1984,  1,  1), Standard = 20, Reduced1 = 10, Increased1 = 32, Parking1 = 32 });
 	rates["at"].Add(new VatRate { StartDate = new DateTime(1992,  1,  1), Standard = 20, Reduced1 = 10 });
 	rates["at"].Add(new VatRate { StartDate = new DateTime(1995,  1,  1), Standard = 20, Reduced1 = 10, Parking1 = 12 });
-	
+	rates["at"].Add(new VatRate { StartDate = new DateTime(2016,  1,  1), Standard = 20, Reduced1 = 13, Reduced2 = 10, Parking1 = 12 });
+
 	// Poland
 	rates.Add("pl", new List<VatRate>());
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(1993,  1,  8), Standard = 22, Reduced1 = 7 });
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(2000,  9,  4), Standard = 22, Reduced1 = 7, Reduced2 = 3 });
 	rates["pl"].Add(new VatRate { StartDate = new DateTime(2011,  1,  1), Standard = 23, Reduced1 = 8, Reduced2 = 5 });
-	rates["pl"].Add(new VatRate { StartDate = new DateTime(2016,  1,  1), Standard = 22, Reduced1 = 8, Reduced2 = 5 });
 	
 	// Portugal
 	rates.Add("pt", new List<VatRate>());
@@ -298,7 +302,9 @@ void Main()
 	rates["ro"].Add(new VatRate { StartDate = new DateTime(2004,  1,  1), Standard = 19, Reduced1 = 9 });
 	rates["ro"].Add(new VatRate { StartDate = new DateTime(2008, 12,  1), Standard = 19, Reduced1 = 9, Reduced2 = 5 });
 	rates["ro"].Add(new VatRate { StartDate = new DateTime(2010,  7,  1), Standard = 24, Reduced1 = 9, Reduced2 = 5 });
-	
+	rates["ro"].Add(new VatRate { StartDate = new DateTime(2016,  1,  1), Standard = 20, Reduced1 = 9, Reduced2 = 5 });
+	rates["ro"].Add(new VatRate { StartDate = new DateTime(2017,  1,  1), Standard = 19, Reduced1 = 9, Reduced2 = 5 });
+
 	// Slovenia
 	rates.Add("si", new List<VatRate>());
 	rates["si"].Add(new VatRate { StartDate = new DateTime(1999,  7,  1), Standard = 19, Reduced1 = 8 });

@@ -307,6 +307,18 @@
       "Standard": 23.0,
       "Reduced1": 13.0,
       "Reduced2": 6.5
+    },
+    {
+      "StartDate": "2015-07-20",
+      "Standard": 23.0,
+      "Reduced1": 13.0,
+      "Reduced2": 6.0
+    },
+    {
+      "StartDate": "2016-06-01",
+      "Standard": 24.0,
+      "Reduced1": 13.0,
+      "Reduced2": 6.5
     }
   ],
   "gr": [
@@ -358,6 +370,18 @@
     {
       "StartDate": "2011-01-01",
       "Standard": 23.0,
+      "Reduced1": 13.0,
+      "Reduced2": 6.5
+    },
+    {
+      "StartDate": "2015-07-20",
+      "Standard": 23.0,
+      "Reduced1": 13.0,
+      "Reduced2": 6.0
+    },
+    {
+      "StartDate": "2016-06-01",
+      "Standard": 24.0,
       "Reduced1": 13.0,
       "Reduced2": 6.5
     }
@@ -820,7 +844,7 @@
       "Parking1": 13.5
     },
     {
-      "StartDate": "2012-03-01",
+      "StartDate": "2012-01-01",
       "Standard": 23.0,
       "Reduced1": 13.5,
       "Reduced2": 9.0,
@@ -995,6 +1019,13 @@
       "Standard": 22.0,
       "Reduced1": 10.0,
       "Reduced2": 4.0
+    },
+    {
+      "StartDate": "2016-01-01",
+      "Standard": 22.0,
+      "Reduced1": 10.0,
+      "Reduced2": 5.0,
+      "Reduced3": 4.0
     }
   ],
   "cy": [
@@ -1281,6 +1312,11 @@
       "StartDate": "2012-01-01",
       "Standard": 21.0,
       "Reduced1": 6.0
+    },
+    {
+      "StartDate": "2019-01-01",
+      "Standard": 21.0,
+      "Reduced1": 9.0
     }
   ],
   "at": [
@@ -1326,6 +1362,13 @@
       "Standard": 20.0,
       "Reduced1": 10.0,
       "Parking1": 12.0
+    },
+    {
+      "StartDate": "2016-01-01",
+      "Standard": 20.0,
+      "Reduced1": 13.0,
+      "Reduced2": 10.0,
+      "Parking1": 12.0
     }
   ],
   "pl": [
@@ -1343,12 +1386,6 @@
     {
       "StartDate": "2011-01-01",
       "Standard": 23.0,
-      "Reduced1": 8.0,
-      "Reduced2": 5.0
-    },
-    {
-      "StartDate": "2016-01-01",
-      "Standard": 22.0,
       "Reduced1": 8.0,
       "Reduced2": 5.0
     }
@@ -1452,6 +1489,18 @@
     {
       "StartDate": "2010-07-01",
       "Standard": 24.0,
+      "Reduced1": 9.0,
+      "Reduced2": 5.0
+    },
+    {
+      "StartDate": "2016-01-01",
+      "Standard": 20.0,
+      "Reduced1": 9.0,
+      "Reduced2": 5.0
+    },
+    {
+      "StartDate": "2017-01-01",
+      "Standard": 19.0,
       "Reduced1": 9.0,
       "Reduced2": 5.0
     }
