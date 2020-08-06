@@ -63,6 +63,8 @@ void Main()
 	rates["de"].Add(new VatRate { StartDate = new DateTime(1993,  1,  1), Standard = 15, Reduced1 = 7 });
 	rates["de"].Add(new VatRate { StartDate = new DateTime(1998,  4,  1), Standard = 16, Reduced1 = 7 });
 	rates["de"].Add(new VatRate { StartDate = new DateTime(2007,  1,  1), Standard = 19, Reduced1 = 7 });
+	rates["de"].Add(new VatRate { StartDate = new DateTime(2020,  7,  1), Standard = 16, Reduced1 = 5 });
+	rates["de"].Add(new VatRate { StartDate = new DateTime(2021,  1,  1), Standard = 19, Reduced1 = 7 });
 	
 	// Estonia
 	rates.Add("ee", new List<VatRate>());

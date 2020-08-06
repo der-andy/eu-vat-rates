@@ -229,6 +229,16 @@
       "StartDate": "2007-01-01",
       "Standard": 19.0,
       "Reduced1": 7.0
+    },
+    {
+      "StartDate": "2020-07-01",
+      "Standard": 16.0,
+      "Reduced1": 5.0
+    },
+    {
+      "StartDate": "2021-01-01",
+      "Standard": 19.0,
+      "Reduced1": 7.0
     }
   ],
   "ee": [
