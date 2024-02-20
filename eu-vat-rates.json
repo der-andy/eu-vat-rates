@@ -65,7 +65,7 @@
       "Reduced1": 12.0,
       "Reduced2": 6.0,
       "Reduced3": 1.0,
-      "Parking1": 14.0
+      "Parking1": 12.0
     },
     {
       "StartDate": "1996-01-01",
@@ -73,14 +73,14 @@
       "Reduced1": 12.0,
       "Reduced2": 6.0,
       "Reduced3": 1.0,
-      "Parking1": 14.0
+      "Parking1": 12.0
     },
     {
       "StartDate": "2000-01-01",
       "Standard": 21.0,
       "Reduced1": 12.0,
       "Reduced2": 6.0,
-      "Parking1": 14.0
+      "Parking1": 12.0
     }
   ],
   "bg": [
@@ -860,6 +860,14 @@
       "Reduced2": 9.0,
       "Reduced3": 4.8,
       "Parking1": 13.5
+    },
+    {
+      "StartDate": "2020-01-08",
+      "Standard": 21.0,
+      "Reduced1": 13.5,
+      "Reduced2": 9.0,
+      "Reduced3": 4.8,
+      "Parking1": 13.5
     }
   ],
   "it": [
@@ -1116,6 +1124,12 @@
       "StartDate": "2012-07-01",
       "Standard": 21.0,
       "Reduced1": 12.0
+    },
+    {
+      "StartDate": "2018-01-01",
+      "Standard": 21.0,
+      "Reduced1": 12.0,
+      "Reduced2": 5.0
     }
   ],
   "lt": [
@@ -1530,6 +1544,12 @@
       "StartDate": "2013-07-01",
       "Standard": 22.0,
       "Reduced1": 9.5
+    },
+    {
+      "StartDate": "2020-01-01",
+      "Standard": 22.0,
+      "Reduced1": 9.5,
+      "Reduced2": 5.0
     }
   ],
   "sk": [
